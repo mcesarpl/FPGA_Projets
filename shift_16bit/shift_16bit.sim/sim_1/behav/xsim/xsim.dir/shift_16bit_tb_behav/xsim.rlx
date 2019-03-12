@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5739421548229300611  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 2a4aefdf4ca241e68a2ed5eb40509f62 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot shift_16bit_tb_behav xil_defaultlib.shift_16bit_tb xil_defaultlib.glbl" , 
+    buildDate : "Dec  6 2018" , 
+    buildTime : "23:39:36" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/shift_16bit_tb_behav/xsimk\"   \"xsim.dir/shift_16bit_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/shift_16bit_tb_behav/obj/xsim_1.lnx64.o\" -L\"/home/mateus/Vivado/2018.3/lib/lnx64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

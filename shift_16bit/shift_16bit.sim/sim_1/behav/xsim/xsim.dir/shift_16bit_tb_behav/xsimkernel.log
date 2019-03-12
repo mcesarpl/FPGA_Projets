@@ -1,0 +1,4 @@
+Running: xsim.dir/shift_16bit_tb_behav/xsimk -simmode gui -wdb shift_16bit_tb_behav.wdb -simrunnum 0 -socket 53641
+Design successfully loaded
+Design Loading Memory Usage: 42600 KB (Peak: 42600 KB)
+Design Loading CPU Usage: 30 ms
