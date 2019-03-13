@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mateus/ufc/FPGA_Projets/FPGA_Projets/add_16bit/add_16bit.srcs/sources_1/new/add_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/new/mult_8bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult_8bit
+ERROR: [VRFC 10-1412] syntax error near = [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/new/mult_8bit.v:55]
+ERROR: [VRFC 10-2939] 'z' is an unknown type [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/new/mult_8bit.v:55]
+ERROR: [VRFC 10-2865] module 'mult_8bit' ignored due to previous errors [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/new/mult_8bit.v:23]

@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/mateus/ufc/FPGA_Projets/FPGA_Projets/add_16bit/add_16bit.srcs/sources_1/new/add_16bit.v,1552409211,verilog,,/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/new/mult_8bit.v,,add_16bit,,,,,,,,
+/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sim_1/new/mult_8bit_tb.v,1552485102,verilog,,,,mult_8bit_tb,,,,,,,,
+/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/new/mult_8bit.v,1552489583,verilog,,/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v,,mult_8bit,,,,,,,,
+/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v,1552407260,verilog,,/home/mateus/ufc/FPGA_Projets/FPGA_Projets/shift_16bit/shift_16bit.srcs/sources_1/new/shift_16bit.v,,mux_16bit,,,,,,,,
+/home/mateus/ufc/FPGA_Projets/FPGA_Projets/shift_16bit/shift_16bit.srcs/sources_1/new/shift_16bit.v,1552410256,verilog,,/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sim_1/new/mult_8bit_tb.v,,shift_16bit,,,,,,,,
