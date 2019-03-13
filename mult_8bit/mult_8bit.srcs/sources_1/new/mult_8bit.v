@@ -70,16 +70,16 @@ add_16bit add2(
     );
     
 mux_16bit mux2(
-    .a(y),
+    .a(mux1_out),
     .b(add2_out),
-    .select(a[0]),
-    .out(mux1_out)
+    .select(a[1]),
+    .out(mux2_out)
     );
 
 
 shift_16bit shit2(
-    .in(y),
-    .out(shift1_out)
+    .in(shift1_out),
+    .out(shift2_out)
     );
    
 assign out = mux8_out;
