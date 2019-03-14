@@ -26,6 +26,7 @@ module mult_8bit(
     output [15:0] out
     );
     
+reg [7:0] a_out;
 reg [15:0] z, y;
 wire [15:0] add1_out, shift1_out, mux1_out, in_out;
 wire [15:0] add2_out, shift2_out, mux2_out;
@@ -42,14 +43,15 @@ in in1(
     .out(in_out)
     );
 
-initial
+always@(a or b)
 begin
-//y = 16'h0004;
-assign y = in_out; 
-z = 16'h0000;
-#100;
+    //#200;
+    //y = 16'h0004;
+    assign a_out = a;
+    assign y = in_out; 
+    z <= 16'h0000;
 end
-    
+   
 //cell 1
 
 add_16bit add1(
@@ -61,7 +63,7 @@ add_16bit add1(
 mux_16bit mux1(
     .a(z),
     .b(add1_out),
-    .select(a[0]),
+    .select(a_out[0]),
     .out(mux1_out)
     );
 
@@ -82,7 +84,7 @@ add_16bit add2(
 mux_16bit mux2(
     .a(mux1_out),
     .b(add2_out),
-    .select(a[1]),
+    .select(a_out[1]),
     .out(mux2_out)
     );
 
@@ -103,7 +105,7 @@ shift_16bit shift2(
  mux_16bit mux3(
      .a(mux2_out),
      .b(add3_out),
-     .select(a[2]),
+     .select(a_out[2]),
      .out(mux3_out)
      );
  
@@ -125,7 +127,7 @@ add_16bit add4(
 mux_16bit mux4(
     .a(mux3_out),
     .b(add4_out),
-    .select(a[3]),
+    .select(a_out[3]),
     .out(mux4_out)
     );
 
@@ -146,7 +148,7 @@ add_16bit add5(
 mux_16bit mux5(
     .a(mux4_out),
     .b(add5_out),
-    .select(a[4]),
+    .select(a_out[4]),
     .out(mux5_out)
     );
 
@@ -167,7 +169,7 @@ add_16bit add6(
 mux_16bit mux6(
     .a(mux5_out),
     .b(add6_out),
-    .select(a[5]),
+    .select(a_out[5]),
     .out(mux6_out)
     );
 
@@ -188,7 +190,7 @@ add_16bit add7(
 mux_16bit mux7(
     .a(mux6_out),
     .b(add7_out),
-    .select(a[6]),
+    .select(a_out[6]),
     .out(mux7_out)
     );
 
@@ -209,7 +211,7 @@ add_16bit add8(
 mux_16bit mux8(
     .a(mux7_out),
     .b(add8_out),
-    .select(a[7]),
+    .select(a_out[7]),
     .out(mux8_out)
     );
     
