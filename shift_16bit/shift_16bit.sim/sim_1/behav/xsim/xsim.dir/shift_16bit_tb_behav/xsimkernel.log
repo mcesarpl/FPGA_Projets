@@ -2,3 +2,6 @@ Running: xsim.dir/shift_16bit_tb_behav/xsimk -simmode gui -wdb shift_16bit_tb_be
 Design successfully loaded
 Design Loading Memory Usage: 42600 KB (Peak: 42600 KB)
 Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 124336 KB (Peak: 189872 KB)
+Simulation CPU Usage: 30 ms

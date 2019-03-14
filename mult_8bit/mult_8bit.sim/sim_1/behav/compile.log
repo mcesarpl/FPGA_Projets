@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/imports/new/8_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module in
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/imports/FPGA_Projets/add_16bit/add_16bit.srcs/sources_1/new/add_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/new/mult_8bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult_8bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/imports/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_16bit
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/imports/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v:30]
+WARNING: [VRFC 10-1315] redeclaration of ansi port select is not allowed [C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/imports/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port a is not allowed [C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/imports/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v:32]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/imports/FPGA_Projets/shift_16bit/shift_16bit.srcs/sources_1/new/shift_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.srcs/sim_1/new/mult_8bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult_8bit_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

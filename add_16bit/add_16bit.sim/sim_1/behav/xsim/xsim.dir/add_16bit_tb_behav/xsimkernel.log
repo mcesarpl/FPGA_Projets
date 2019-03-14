@@ -2,3 +2,6 @@ Running: xsim.dir/add_16bit_tb_behav/xsimk -simmode gui -wdb add_16bit_tb_behav.
 Design successfully loaded
 Design Loading Memory Usage: 42604 KB (Peak: 42604 KB)
 Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 124340 KB (Peak: 189876 KB)
+Simulation CPU Usage: 30 ms
