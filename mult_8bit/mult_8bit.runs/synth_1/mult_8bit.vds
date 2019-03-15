@@ -1,0 +1,258 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 15 13:40:57 2019
+# Process ID: 16126
+# Current directory: /home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.runs/synth_1
+# Command line: vivado -log mult_8bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_8bit.tcl
+# Log file: /home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.runs/synth_1/mult_8bit.vds
+# Journal file: /home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mult_8bit.tcl -notrace
+Command: synth_design -top mult_8bit -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16145 
+WARNING: [Synth 8-2611] redeclaration of ansi port out is not allowed [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v:30]
+WARNING: [Synth 8-2611] redeclaration of ansi port select is not allowed [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v:31]
+WARNING: [Synth 8-2611] redeclaration of ansi port a is not allowed [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v:32]
+WARNING: [Synth 8-2611] redeclaration of ansi port b is not allowed [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v:32]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1416.363 ; gain = 36.383 ; free physical = 141 ; free virtual = 13264
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mult_8bit' [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/new/mult_8bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'in' [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/8_16bit/8_16bit.srcs/sources_1/new/8_16bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'in' (1#1) [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/8_16bit/8_16bit.srcs/sources_1/new/8_16bit.v:23]
+WARNING: [Synth 8-567] referenced signal 'in_out' should be on the sensitivity list [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/new/mult_8bit.v:47]
+INFO: [Synth 8-6157] synthesizing module 'add_16bit' [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/add_16bit/add_16bit.srcs/sources_1/new/add_16bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'add_16bit' (2#1) [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/add_16bit/add_16bit.srcs/sources_1/new/add_16bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux_16bit' [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v:23]
+WARNING: [Synth 8-567] referenced signal 'b' should be on the sensitivity list [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'mux_16bit' (3#1) [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mux_16bit/mux_16bit.srcs/sources_1/new/mux_16bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'shift_16bit' [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/shift_16bit/shift_16bit.srcs/sources_1/new/shift_16bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'shift_16bit' (4#1) [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/shift_16bit/shift_16bit.srcs/sources_1/new/shift_16bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mult_8bit' (5#1) [/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.srcs/sources_1/new/mult_8bit.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1445.488 ; gain = 65.508 ; free physical = 189 ; free virtual = 13283
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1445.488 ; gain = 65.508 ; free physical = 189 ; free virtual = 13283
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1453.492 ; gain = 73.512 ; free physical = 188 ; free virtual = 13282
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1461.500 ; gain = 81.520 ; free physical = 180 ; free virtual = 13274
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 8     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module add_16bit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+Module mux_16bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 144 ; free virtual = 13079
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 147 ; free virtual = 13082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 146 ; free virtual = 13081
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 146 ; free virtual = 13081
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 146 ; free virtual = 13081
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 146 ; free virtual = 13081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 146 ; free virtual = 13081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 146 ; free virtual = 13081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 146 ; free virtual = 13081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    21|
+|2     |LUT2   |     3|
+|3     |LUT3   |    47|
+|4     |LUT4   |    10|
+|5     |LUT6   |     6|
+|6     |IBUF   |    16|
+|7     |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |   119|
+|2     |  add2   |add_16bit   |    10|
+|3     |  add3   |add_16bit_0 |     8|
+|4     |  add4   |add_16bit_1 |    11|
+|5     |  add5   |add_16bit_2 |    11|
+|6     |  add6   |add_16bit_3 |    11|
+|7     |  add7   |add_16bit_4 |    11|
+|8     |  add8   |add_16bit_5 |    11|
+|9     |  mux2   |mux_16bit   |    14|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 146 ; free virtual = 13081
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.898 ; gain = 241.918 ; free physical = 149 ; free virtual = 13084
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1621.906 ; gain = 241.918 ; free physical = 149 ; free virtual = 13084
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1710.922 ; gain = 0.000 ; free physical = 142 ; free virtual = 12994
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1710.922 ; gain = 331.059 ; free physical = 199 ; free virtual = 13051
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1710.922 ; gain = 0.000 ; free physical = 199 ; free virtual = 13051
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.runs/synth_1/mult_8bit.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mult_8bit_utilization_synth.rpt -pb mult_8bit_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 15 13:41:13 2019...

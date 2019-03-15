@@ -37,25 +37,24 @@ wire [15:0] add6_out, shift6_out, mux6_out;
 wire [15:0] add7_out, shift7_out, mux7_out;
 wire [15:0] add8_out, mux8_out;
 
-//in convert 8 bit to 16 bit
+//convert 8 bit to 16 bit
 in in1(
     .in(b),
     .out(in_out)
     );
 
+//always block
 always@(a or b)
 begin
-    //#200;
-    //y = 16'h0004;
-    assign a_out = a;
-    assign y = in_out; 
+    a_out = a;
+    y = in_out; 
     z <= 16'h0000;
 end
    
 //cell 1
 
 add_16bit add1(
-    .a(y),
+    .a(in_out),
     .b(z),
     .out(add1_out)
     );

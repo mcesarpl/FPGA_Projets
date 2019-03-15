@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 15 13:40:57 2019
+# Process ID: 16126
+# Current directory: /home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.runs/synth_1
+# Command line: vivado -log mult_8bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_8bit.tcl
+# Log file: /home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.runs/synth_1/mult_8bit.vds
+# Journal file: /home/mateus/ufc/FPGA_Projets/FPGA_Projets/mult_8bit/mult_8bit.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mult_8bit.tcl -notrace

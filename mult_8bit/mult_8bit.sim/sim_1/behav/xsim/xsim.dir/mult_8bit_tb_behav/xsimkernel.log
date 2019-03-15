@@ -1,4 +1,4 @@
-Running: xsim.dir/mult_8bit_tb_behav/xsimk -simmode gui -wdb mult_8bit_tb_behav.wdb -simrunnum 0 -socket 51423
+Running: xsim.dir/mult_8bit_tb_behav/xsimk -simmode gui -wdb mult_8bit_tb_behav.wdb -simrunnum 0 -socket 60801
 Design successfully loaded
-Design Loading Memory Usage: 42640 KB (Peak: 42640 KB)
+Design Loading Memory Usage: 42632 KB (Peak: 42632 KB)
 Design Loading CPU Usage: 20 ms

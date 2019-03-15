@@ -1,8 +1,8 @@
-Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.2.1 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Wed Mar 13 22:36:48 2019
-| Host         : DESKTOP-4HA8L2L running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Fri Mar 15 13:41:54 2019
+| Host         : debian running 64-bit Debian GNU/Linux 9.3 (stretch)
 | Command      : report_control_sets -verbose -file mult_8bit_control_sets_placed.rpt
 | Design       : mult_8bit
 | Device       : xc7a200t
@@ -13,8 +13,9 @@ Control Set Information
 Table of Contents
 -----------------
 1. Summary
-2. Flip-Flop Distribution
-3. Detailed Control Set Information
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
 
 1. Summary
 ----------
@@ -27,7 +28,15 @@ Table of Contents
 +----------------------------------------------------------+-------+
 
 
-2. Flip-Flop Distribution
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
 -------------------------
 
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -42,16 +51,11 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
-3. Detailed Control Set Information
+4. Detailed Control Set Information
 -----------------------------------
 
 +--------------+---------------+------------------+------------------+----------------+
 | Clock Signal | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
 +--------------+---------------+------------------+------------------+----------------+
-
-
-+--------+-----------------------+
-| Fanout | Number of ControlSets |
-+--------+-----------------------+
 
 

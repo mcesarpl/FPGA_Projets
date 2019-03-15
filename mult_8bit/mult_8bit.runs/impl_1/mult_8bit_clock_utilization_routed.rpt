@@ -1,12 +1,12 @@
-Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.2.1 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Wed Mar 13 22:37:45 2019
-| Host         : DESKTOP-4HA8L2L running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Fri Mar 15 13:42:36 2019
+| Host         : debian running 64-bit Debian GNU/Linux 9.3 (stretch)
 | Command      : report_clock_utilization -file mult_8bit_clock_utilization_routed.rpt
 | Design       : mult_8bit
 | Device       : 7a200t-fbg676
-| Speed File   : -2  PRODUCTION 1.18 2017-07-26
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
 ---------------------------------------------------------------------------------------
 
 Clock Utilization Report
@@ -80,6 +80,7 @@ Table of Contents
 5. Clock Regions : Global Clock Summary
 ---------------------------------------
 
+All Modules
 +----+----+----+
 |    | X0 | X1 |
 +----+----+----+

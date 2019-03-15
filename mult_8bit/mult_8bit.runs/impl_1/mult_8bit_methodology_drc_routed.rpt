@@ -1,14 +1,14 @@
-Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
--------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.2.1 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Wed Mar 13 22:37:43 2019
-| Host         : DESKTOP-4HA8L2L running 64-bit major release  (build 9200)
-| Command      : report_methodology -file mult_8bit_methodology_drc_routed.rpt -rpx mult_8bit_methodology_drc_routed.rpx
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Fri Mar 15 13:42:35 2019
+| Host         : debian running 64-bit Debian GNU/Linux 9.3 (stretch)
+| Command      : report_methodology -file mult_8bit_methodology_drc_routed.rpt -pb mult_8bit_methodology_drc_routed.pb -rpx mult_8bit_methodology_drc_routed.rpx
 | Design       : mult_8bit
 | Device       : xc7a200tfbg676-2
 | Speed File   : -2
-| Design State : Routed
--------------------------------------------------------------------------------------------------------------------------
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Report Methodology
 
