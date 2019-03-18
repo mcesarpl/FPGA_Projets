@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/mateus/add_16bit/add_16bit.runs/synth_1'
+HD_PWD='/home/mateus/ufc/FPGA_Projets/FPGA_Projets/add_16bit/add_16bit.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

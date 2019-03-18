@@ -1,0 +1,15 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Mon Mar 18 17:50:40 2019
+| Host         : debian running 64-bit Debian GNU/Linux 9.3 (stretch)
+| Command      : report_bus_skew -warn_on_violation -file add_16bit_bus_skew_routed.rpt -pb add_16bit_bus_skew_routed.pb -rpx add_16bit_bus_skew_routed.rpx
+| Design       : add_16bit
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
