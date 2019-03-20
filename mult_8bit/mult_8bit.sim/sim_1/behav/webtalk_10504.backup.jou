@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2.1 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1948039 on Wed Aug  9 18:19:28 MDT 2017
+# Start of session at: Thu Mar 14 10:06:22 2019
+# Process ID: 10504
+# Current directory: C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.sim/sim_1/behav/xsim.dir/mult_8bit_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Meu computador/Desktop/7 semestre/FPGA/Projetos/FPGA_Projets/mult_8bit/mult_8bit.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Meu -notrace
